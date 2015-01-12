@@ -1,0 +1,135 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+/***  Box Shadows  ***/
+/***  Transitions  ***/
+/***  Scale  ***/
+/***  Radius  ***/
+body {
+  overflow-x: hidden; }
+#info {
+	/*width: 550px;*/
+	margin-top: 20px;
+	position: relative;
+}
+#info button {
+	margin-bottom: 20px;
+}
+.top-action-button {
+	position: absolute;
+	right: 0;
+	top: -50px;
+}
+#info li {
+	list-style: disc inside none;
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+}
+#search {
+	border: 1px solid #eaeaea;
+	padding: 10px 15px;
+	background: #bbc8e8;
+}
+.row {
+	margin: 15px 0!important;
+}
+#results label {
+	font-weight: bold;
+}
+#results label small {
+	font-weight: normal;
+}
+.match {
+  background: yellow; }
+
+#results {
+	display: none;
+	/*width: 550px; */
+	margin-top: 20px;	}
+.left-side-info {
+	width: 50%;
+	float: left;
+}
+.right-side-info {
+	width: 50%;
+	float: left;
+}
+#results select{
+	width: auto;
+}	
+
+#load-display {
+  padding: 20px 20px 150px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 99999999;
+  background: #eaeaea url(../loader.gif) no-repeat 50% 95%;
+  -webkit-box-shadow: 2px 4px 2px 1px #555555;
+  -moz-box-shadow: 2px 4px 2px 1px #555555;
+  box-shadow: 2px 4px 2px 1px #555555; }
+#keyword {
+	width: 100%;
+}
+.open-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  margin-top: -20px;
+  height: 20px;
+  cursor: pointer;
+  color: blue; }
+
+.result {
+  position: relative; }
+
+.clear-filter {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  cursor: pointer;
+  color: red;
+  padding: 5px; }
+
+.slide-container {
+  position: relative; }
+  .slide-container .slide {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .slide-container .ng-enter, .slide-container .ng-leave {
+    -o-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    -webkit-transition: all 1500ms ease;
+    transition: all 1500ms ease; }
+  .slide-container .ng-enter {
+    left: 100%; }
+  .slide-container .ng-enter-active {
+    left: 0; }
+  .slide-container .slide.ng-leave-active {
+    left: -200%; }
+	
+	
+.number-of-results {
+	width: 50%;
+	float: left;
+}
+.items-per-page {
+	float: left;
+	width: 15%;
+}
+.export-button {
+	float: right; 
+	width: 35%;
+}
+.row .form-group {
+	position: relative;
+	margin-left: 0!important;
+}
+.form-group em {
+	position: absolute;
+	bottom: 0;
+	left: -10px;	
+}
+
